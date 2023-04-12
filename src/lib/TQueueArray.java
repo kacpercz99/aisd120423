@@ -119,7 +119,11 @@ public class TQueueArray<E> implements InterQueueIterableArray<E> {
         sb.append("\n");
         return sb.toString();
     }
-    public E reset(){
-        
+    public E reset(E element){
+        E newHead=null;
+        while(!isEmpty()){
+            
+        }
+        return newHead;
     }
 }
